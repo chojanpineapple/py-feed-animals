@@ -11,7 +11,7 @@ class Animal:
         Animal.animals.add(self)
     
     def print_name(self) -> str:
-        return f"Hello, I'm {self.name}"
+        print(f"Hello, I'm {self.name}")
 
     def feed(self) -> int:
         
